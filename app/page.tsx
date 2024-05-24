@@ -24,7 +24,7 @@ const Page: FC<Props> = (props) => {
 
         <meta property="og:title" content="Flexi Class" />
         <meta property="og:description" content="Redefine Education" />
-        <meta property="og:image" content="/client/app/favicon.ico" />
+        <meta property="og:image" content="/client/app/FlexiClassLogo.png" />
         <meta name="twitter:card" content="summary_large_image" />
       </head>
       <Header
