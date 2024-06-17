@@ -55,7 +55,7 @@ const Login: FC<Props> = ({ setRoute, setOpen, refetch }) => {
 
   return (
     <div className="w-full">
-      <h1 className={`${styles.title}`}>Login to VCL</h1>
+      <h1 className={`${styles.title}`}>Login to Flexi Class</h1>
       <form onSubmit={handleSubmit}>
         <label className={`${styles.label}`} htmlFor="email">
           Enter your Email
@@ -126,7 +126,7 @@ const Login: FC<Props> = ({ setRoute, setOpen, refetch }) => {
           >
             Sign up
           </span>
-            <h5 className="text-center pt-4 font-Poppins text-[14px] text-black dark:text-white">Flexi Class v1.0.0</h5>
+          <h5 className="text-center pt-4 font-Poppins text-[14px] text-black dark:text-white">Flexi Class v1.0.0</h5>
         </h5>
       </form>
       <br />
